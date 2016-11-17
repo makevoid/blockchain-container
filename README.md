@@ -16,7 +16,7 @@ Plus:
 
 - build-tools package
 - A simple script to get the container id (based on the container ip)
-
+- run everything on one container (simple for bootstrapping a full instance that contains both the blockchain process and your app) - you can add an optional redis container per blockchain node/server instance and use that as a cache and/or you can use a shared redis for exchanging messages between nodes/instances, build a pub/sub based system, etc... 
 
 
 
